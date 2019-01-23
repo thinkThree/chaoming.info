@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc6276b9d52201613f62f85b34b4fd6cb
+class ComposerStaticInitdf256ba93738242db630e1c6bbd8614b
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -349,6 +349,7 @@ class ComposerStaticInitc6276b9d52201613f62f85b34b4fd6cb
         'App\\Events\\ExampleEvent' => __DIR__ . '/../..' . '/app/Events/ExampleEvent.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\DevController' => __DIR__ . '/../..' . '/app/Http/Controllers/DevController.php',
         'App\\Http\\Controllers\\ExampleController' => __DIR__ . '/../..' . '/app/Http/Controllers/ExampleController.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\ExampleMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/ExampleMiddleware.php',
@@ -2957,11 +2958,11 @@ class ComposerStaticInitc6276b9d52201613f62f85b34b4fd6cb
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc6276b9d52201613f62f85b34b4fd6cb::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc6276b9d52201613f62f85b34b4fd6cb::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitc6276b9d52201613f62f85b34b4fd6cb::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitc6276b9d52201613f62f85b34b4fd6cb::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitc6276b9d52201613f62f85b34b4fd6cb::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitdf256ba93738242db630e1c6bbd8614b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitdf256ba93738242db630e1c6bbd8614b::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitdf256ba93738242db630e1c6bbd8614b::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitdf256ba93738242db630e1c6bbd8614b::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitdf256ba93738242db630e1c6bbd8614b::$classMap;
 
         }, null, ClassLoader::class);
     }
